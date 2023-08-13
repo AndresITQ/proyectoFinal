@@ -149,3 +149,24 @@ aside img {
     cursor: pointer;
 
 }
+
+.llamanos h4 {
+    color: rgb(87, 90, 95);
+    font-size: 17px;
+    margin-top: -17px;
+    margin-left: 35px;
+    cursor: pointer;
+
+}
+
+.llamanos .icono {
+    color: rgb(61, 177, 197);
+    margin-left: 50px;
+    margin-bottom: 10px;
+
+
+}
+
+.forma {
+    padding-bottom: 25px;
+}
