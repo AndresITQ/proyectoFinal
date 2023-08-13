@@ -326,3 +326,63 @@ footer .redes .icono .fa-twitter {
     color: rgba(29, 161, 242, 1.00);
 
 }
+
+/* Pantalla de tableta */
+@media screen and (max-width:500px) {
+
+
+    header {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .logo {
+        display: flex;
+        margin-right: 100px;
+
+    }
+
+    header .menu {
+        width: 100%;
+        display: flex;
+    }
+
+    header .menu a {
+        width: 100%;
+        margin: auto;
+        font-size: 18px;
+        padding: 20px;
+    }
+
+
+    .principal {
+        width: 100%;
+
+    }
+
+    .video {
+        width: 100%;
+        display: flex;
+    }
+
+    aside {
+        width: 100%;
+
+    }
+
+    aside .avisos {
+        width: 40%;
+    }
+
+    footer {
+        width: 100%;
+
+    }
+
+    footer .autor {
+        line-height: 30px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+}
