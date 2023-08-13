@@ -47,3 +47,32 @@ header {
     align-items: center;
 
 }
+
+.logo img {
+
+    width: 90px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.menu {
+    width: 100%;
+
+}
+
+header .menu a {
+    display: inline-flex;
+    color: rgb(255, 250, 250);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 40px;
+    font-family: sans-serif;
+
+}
+
+header .menu a:hover {
+    text-decoration: none;
+    color: rgba(190, 218, 253, 0.849);
+    transition: all 0.3s;
+}
