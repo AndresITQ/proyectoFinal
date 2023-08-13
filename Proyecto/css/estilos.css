@@ -76,3 +76,56 @@ header .menu a:hover {
     color: rgba(190, 218, 253, 0.849);
     transition: all 0.3s;
 }
+
+.principal {
+    background-color: rgba(255, 249, 249, 0.5);
+    border-bottom-left-radius: 4px;
+    padding: 20px;
+    margin-bottom: 18px;
+    width: 70%;
+}
+
+.principal .video {
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    /* display: flex; */
+
+
+}
+
+
+.principal article .thumb img {
+
+    width: 100%;
+    height: 280px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.principal article h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #2c7997;
+
+}
+
+
+.principal article p {
+    color: rgb(35, 36, 36);
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.principal article h3 {
+    padding: 10px;
+    text-align: center;
+    color: rgb(38, 43, 43);
+    line-height: 1.5;
+}
