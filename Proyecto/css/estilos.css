@@ -170,3 +170,107 @@ aside img {
 .forma {
     padding-bottom: 25px;
 }
+
+.registro {
+    width: 100%;
+    max-width: 400px;
+
+    background-color: #fff;
+    padding: 21px;
+
+    margin-bottom: 15px;
+
+
+
+}
+
+.registro h1 {
+    text-align: center;
+    font-size: 23px;
+    padding: 20px;
+    padding-bottom: 35px;
+
+    margin-top: -30px;
+
+    color: #1a2537;
+}
+
+.registro .entrada {
+    margin-bottom: 23px;
+    border: 1px solid #aaa;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    border-radius: 10px;
+
+}
+
+.registro .entrada input {
+    font-size: 17px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+
+}
+
+.registro .recordar {
+    text-align: left;
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    margin-top: -10px;
+    font-size: 15px;
+
+
+    font-family: "rubick";
+    color: rgb(66, 66, 64);
+
+
+
+}
+
+.registro .olvidar {
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    color: #13315f;
+}
+
+.registro .olvidar:hover {
+    color: rgb(61, 94, 201);
+
+}
+
+
+.registro p .enlace:hover {
+    color: cadetblue;
+}
+
+.registro .boton {
+    background-color: #1b417a;
+    color: #fff;
+    width: 80%;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.registro .boton:hover {
+    background-color: rgba(12, 128, 163, 0.932);
+}
+
+.registro .entrada .icono {
+    width: 23px;
+    text-align: center;
+    color: #999;
+    padding-left: 10px;
+}
