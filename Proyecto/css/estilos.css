@@ -18,3 +18,32 @@ body {
     background-size: cover;
     font-family: "noto-regular", sans-serif;
 }
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+
+    /* Flexbox */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header {
+
+
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: 40px;
+    background-color: rgba(109, 135, 143, 0.4);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+    /* FlexBox */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
