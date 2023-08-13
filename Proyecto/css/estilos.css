@@ -10,3 +10,11 @@
     src: url(../fuentes/Noto-Sans/NotoSans-Regular.ttf);
     font-family: "noto-regular";
 }
+
+body {
+
+    background-image: url("../imagenes/playa.png");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "noto-regular", sans-serif;
+}
